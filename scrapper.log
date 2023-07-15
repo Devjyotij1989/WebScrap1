@@ -5386,3 +5386,119 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:26:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:26:43] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:26:43] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:26:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iPhone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iPhone11', 'Name': 'Mukesh Thakor', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Good product \U0001f44cI love iPhone'}, {'Product': 'iPhone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iPhone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iPhone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money \U0001f60d'}, {'Product': 'iPhone11', 'Name': 'Kuldeep Kumar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'V Good all'}, {'Product': 'iPhone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.'}, {'Product': 'iPhone11', 'Name': 'Shwarif  Hussain', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Excellent Phone.'}, {'Product': 'iPhone11', 'Name': 'Sonam Lama', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'very good camera quality'}, {'Product': 'iPhone11', 'Name': 'Sonam Lama', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'very good camera quality'}]
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:28:15] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:28:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Jul/2023 23:28:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:12:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:12:57] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:12:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:12:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:13:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:13:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:13:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:13:31] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:13:31] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:19] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'HPLaptops', 'Name': 'Haripriya  Baishya ', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Nice!'}, {'Product': 'HPLaptops', 'Name': 'SATYANARAYANA REDDY', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Touch screen is awesome... Performance is as expected.. Good product in this price range..'}, {'Product': 'HPLaptops', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Excellent device and most importantly Value for money.Design : 10/10Performance: 9/10Display: 8/10Touch: 8/10Storage: 5/10'}, {'Product': 'HPLaptops', 'Name': 'Sristi Bose', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Why will you switch over to a Chromebook from laptop?1. If your work is confined within the MS office package.2. If your child attends online classes.3. If you need not to do any heavy software works ( programming or massive picture editing)4. If you want a lightweight but sturdy machine.5. If you like a android interface.6. If you have a steady internet connection.If any or all of the criteria matches with you, just go for it.Initially, there will be some amount of difficulties wit...'}, {'Product': 'HPLaptops', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Very stylish and compact.. Suitable for light users and entertainment lovers'}, {'Product': 'HPLaptops', 'Name': 'pritam bera', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Cute little product that I purchased for my wife and she is quite happy with it.'}, {'Product': 'HPLaptops', 'Name': 'Kichu Kic', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'All good but bluetooth not working and swith on automatically want to replace thank u'}, {'Product': 'HPLaptops', 'Name': 'Sayan Roy', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'I love HP Chromebook. Best Value of money \U0001f60e'}, {'Product': 'HPLaptops', 'Name': 'Sourabh Verma', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': "I wonder why nobody posted pics for snow white variant. It looks super awesome. Ok for those who are wondering whether this device is just for students and kids then answer is NO. It's equally great for productivity and office work. Crostini (Linux apps support) is awesome , it opens up whole new possibilities of having Linux apps along with Android apps and Chrome OS extensions. Battery backup is unbelievable and this has to be great due to low power and efficient mediatek chip. If you want ..."}, {'Product': 'HPLaptops', 'Name': 'Chandani Shah', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'i loved it, superb performance, awesome battery and touch is just wow.. this is a complete package, design is also premium and build is also premium, loved it ....'}, {'Product': 'HPLaptops', 'Name': 'Chandani Shah', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'i loved it, superb performance, awesome battery and touch is just wow.. this is a complete package, design is also premium and build is also premium, loved it ....'}]
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:33] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:33:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'HPLaptops', 'Name': 'Brahmananda Bhutia', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Nice product in this price point I recommend you....you can go for it'}, {'Product': 'HPLaptops', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Just go for it .. best in this budget segment \U0001f60d\U0001f4b5'}, {'Product': 'HPLaptops', 'Name': 'Sudesh Yadav', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Fast Delivery, Good product but battary backup not good, Display is average, value for money in 38k'}, {'Product': 'HPLaptops', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nice product'}, {'Product': 'HPLaptops', 'Name': 'Akash Kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'This is a very good laptop, its battery and display are also good, fast charging is also there, value for money'}, {'Product': 'HPLaptops', 'Name': 'Saket  Agarwal ', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Performance of this laptop is very niceDisplay quality is awesome'}, {'Product': 'HPLaptops', 'Name': 'sanni jha', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'All right thanks for filpkart'}, {'Product': 'HPLaptops', 'Name': 'Debidas Halder', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Quality and product is outstanding. And my first choice is Lenovo. Just love it'}, {'Product': 'HPLaptops', 'Name': 'Soumyajit Sarkar', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': "I got the laptop at 35434 with offers. At this price , this product is one the best in the beginners' segment.Pros:1. I was using a i3 6th gen with 4gb ram and 1tb hdd. this laptop is way faster than the previous one.2. Performance is smooth during normal usage3. The display is good though its a TN, you can find a IPS version which couple of thousands expensive than this one.4. It's compact and lightweight5. Ram is expandable6. privacy shutter feature is nice :)7. Best speakers in t..."}, {'Product': 'HPLaptops', 'Name': 'Rishav Raj Pradhan', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': "First of all thanks to Flipkart for a faster delivery, it was under 2days. You guys are awesome. The laptop is so much slik looking and classy. It is so much premium looking. The display is great and the performance is even faster. I am a student, doing my bachelor's, so for student work it is more faster than required. I just loved the laptop. But for gaming I don't know, because I can't play games that much. Boot time is less than 6 second."}, {'Product': 'HPLaptops', 'Name': 'Rishav Raj Pradhan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "First of all thanks to Flipkart for a faster delivery, it was under 2days. You guys are awesome. The laptop is so much slik looking and classy. It is so much premium looking. The display is great and the performance is even faster. I am a student, doing my bachelor's, so for student work it is more faster than required. I just loved the laptop. But for gaming I don't know, because I can't play games that much. Boot time is less than 6 second."}]
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:36:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:36:58] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:36:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.244:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:48:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:48:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:49:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'iPhone11', 'Name': 'Manish  Deshlahare', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Very very good'}, {'Product': 'iPhone11', 'Name': 'Vishnu Ramakrishnan', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Camera is awesomeBest battery backupA performer \U0001f44c\U0001f3fbIt will be a real value for money if they provide charger and earphone inbox!'}, {'Product': 'iPhone11', 'Name': 'Dev', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Value for money \U0001f60d'}, {'Product': 'iPhone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'This is amazing at all'}, {'Product': 'iPhone11', 'Name': 'vikash  Yadav', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'It’s really awesome'}, {'Product': 'iPhone11', 'Name': 'Shwarif  Hussain', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': 'Excellent Phone.'}, {'Product': 'iPhone11', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Go for iPhone 11 , if confused between iPhone 11 or iPhone 12 mini.Battery Life is enhanced , it worked for complete 2 days without charging it. Explored new features of taking screenshot by clicking on apple logo by Haptic Touch , Portrait mode with stage effect enhanced & slow motion selfie.'}, {'Product': 'iPhone11', 'Name': 'Vikram rapolu', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Perfect Product!!'}, {'Product': 'iPhone11', 'Name': 'Kuldeep Kumar', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'V Good all'}, {'Product': 'iPhone11', 'Name': 'Steevan Rattra ', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Good Camera'}, {'Product': 'iPhone11', 'Name': 'Steevan Rattra ', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good Camera'}]
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:49:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:49:08] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Jul/2023 20:49:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

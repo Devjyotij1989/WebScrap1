@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
@@ -5,6 +6,10 @@ from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 import logging
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
+import pymongo
+
+
+
 
 app = Flask(__name__)
 
@@ -32,10 +37,16 @@ def index():
             print(prod_html)
             commentboxes = prod_html.find_all('div', {'class': "_16PBlm"})
 
-            filename = searchString + ".csv"
-            fw = open(filename, "w")
+            # Mongo DB Connection and DB creation
+            client = pymongo.MongoClient("mongodb+srv://devjyotij1990:Devj1990@cluster0.21pghof.mongodb.net/?retryWrites=true&w=majority")
+            db = client['fk_webScrap1']
+            fk1_collection = db['fk_webScrap1_data']
+
+
+            #filename = searchString + ".csv"
+            #fw = open(filename, "w")
             headers = "Product, Customer Name, Rating, Heading, Comment \n"
-            fw.write(headers)
+            #fw.write(headers)
             reviews = []
             for commentbox in commentboxes:
                 try:
@@ -72,6 +83,9 @@ def index():
                           "Comment": custComment}
                 reviews.append(mydict)
             logging.info("log my final result {}".format(reviews))
+            
+            fk1_collection.insert_many(reviews)
+
             return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             logging.info(e)
@@ -84,3 +98,5 @@ def index():
 
 if __name__=="__main__":
     app.run(host="0.0.0.0")
+
+
